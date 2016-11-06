@@ -28,6 +28,7 @@ public class TestLRU extends TestCase {
         cache.put(3, "33");
 
         System.out.println(cache);
+        System.out.println("gb");
 
         cache.put(2, "22");
 
