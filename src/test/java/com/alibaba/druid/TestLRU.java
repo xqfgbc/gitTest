@@ -32,7 +32,6 @@ public class TestLRU extends TestCase {
         System.out.println("gb's branch");
 
         cache.put(2, "22");
-
         System.out.println(cache);
         cache.get(3);
         System.out.println(cache);
